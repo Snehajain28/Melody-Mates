@@ -57,7 +57,7 @@ console.log(user)
 
         })
             .catch((e) => {
-                toast.error(e.response.data.message);
+                toast.error(e);
             })
         setSpinner(false)
     }
